@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>IgorDevApp</h1>
+    <div class="content">
+        <div class="bloc">
+            <div id="display" class="display">
+            </div>
+            <div class="grid">
+                <button onclick="limparAll()" id="b">CE</button>
+                <button onclick="limparOne()"id="b"><</button>
+                <button onclick="raiz()" id="b"><span>&#8730;</span></button>
+                <button onclick="Pot()" id="b">x<sup>2</sup></button>
+
+                <button onclick="PegaValor(value)" value="7">7</button>
+                <button onclick="PegaValor(value)" value="8">8</button>
+                <button onclick="PegaValor(value)" value="9">9</button>
+
+                <button onclick="PegaValor(value)" value="/" id="b">/</button>
+
+                <button onclick="PegaValor(value)" value="4">4</button>
+                <button onclick="PegaValor(value)" value="5">5</button>
+                <button onclick="PegaValor(value)" value="6">6</button>
+
+                <button onclick="PegaValor(value)" value="*" id="b">*</button>
+
+                <button onclick="PegaValor(value)" value="1">1</button>
+                <button onclick="PegaValor(value)" value="2">2</button>
+                <button onclick="PegaValor(value)" value="3">3</button>
+
+                <button onclick="PegaValor(value)" value="-" id="b">-</button>
+
+                <button onclick="PegaValor(value)" value="." id="b">.</button>
+                <button onclick="PegaValor(value)" value="0" >0</button>
+                <button onclick="calc()" id="b">=</button>
+                <button onclick="PegaValor(value)" value="+" id="b">+</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
